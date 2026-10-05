@@ -32,3 +32,20 @@ msgstr "Проведені переміщення"
 #: model:ir.model.fields,field_description:account_analytic_required.field_account_account__analytic_policy
 msgid "Policy for analytic account"
 msgstr "Політика для аналітичного рахунка"
+
+#. module: account_analytic_required
+#: model:ir.model.fields,help:account_analytic_required.field_account_account__analytic_policy
+msgid ""
+"Sets the policy for analytic accounts.\n"
+"If you select:\n"
+"- Empty: The accountant is free to put an analytic account on an account move line with this type of account.\n"
+"- Always: The accountant will get an error message if there is no analytic account.\n"
+"- Posted moves: The accountant will get an error message if no analytic account is defined when the move is posted.\n"
+"- Never: The accountant will get an error message if an analytic account is present."
+msgstr ""
+"Визначає політику для аналітичних рахунків.\n"
+"Якщо вибрати:\n"
+"- Порожньо: бухгалтер може вільно вказувати аналітичний рахунок у рядку бухгалтерського проведення з цим типом рахунку.\n"
+"- Завжди: бухгалтер отримає повідомлення про помилку, якщо аналітичний рахунок не вказано.\n"
+"- Проведені переміщення: бухгалтер отримає повідомлення про помилку, якщо під час проведення переміщення аналітичний рахунок не визначено.\n"
+"- Ніколи: бухгалтер отримає повідомлення про помилку, якщо аналітичний рахунок присутній."

@@ -17,3 +17,10 @@ msgstr ""
 #: model:ir.model.fields,field_description:pos_analytic_by_config.field_account_analytic_distribution_model__pos_config_id
 msgid "Pos Config"
 msgstr "Конфігурація POS"
+
+#. module: pos_analytic_by_config
+#: model:ir.model.fields,help:pos_analytic_by_config.field_account_analytic_distribution_model__pos_config_id
+msgid ""
+"Select a Point of Sale for which the analytic distribution will be used"
+msgstr ""
+"Виберіть точку продажу, для якої використовуватиметься аналітичний розподіл"

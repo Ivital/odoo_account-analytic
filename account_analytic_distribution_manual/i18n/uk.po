@@ -147,3 +147,20 @@ msgstr ""
 "Якщо визначити це поле, аналітичний розподіл буде задано у форматі JSON, але"
 " ключами словника будуть назви аналітичних рахунків, що спрощує введення "
 "людиною."
+
+#. module: account_analytic_distribution_manual
+#. odoo-python
+#: code:addons/account_analytic_distribution_manual/models/account_analytic_distribution_manual.py:0
+msgid "%s (Copy)"
+msgstr "%s (Копія)"
+
+#. module: account_analytic_distribution_manual
+#. odoo-javascript
+#: code:addons/account_analytic_distribution_manual/static/src/components/analytic_distribution/analytic_distribution.esm.js:0
+msgid "Loading..."
+msgstr "Завантаження..."
+
+#. module: account_analytic_distribution_manual
+#: model:ir.model.constraint,message:account_analytic_distribution_manual.constraint_account_analytic_distribution_manual_unique_name_by_company
+msgid "The name must be unique per Company!"
+msgstr "Назва має бути унікальною для кожної компанії!"

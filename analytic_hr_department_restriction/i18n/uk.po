@@ -19,3 +19,8 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:analytic_hr_department_restriction.view_account_analytic_account_search
 msgid "Departments"
 msgstr "Відділи"
+
+#. module: analytic_hr_department_restriction
+#: model:res.groups,name:analytic_hr_department_restriction.group_analytic_accounting_without_department
+msgid "Analytic Accounting (without department)"
+msgstr "Аналітичний облік (без відділу)"

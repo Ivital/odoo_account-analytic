@@ -67,3 +67,12 @@ msgstr "Конфігурація розподілу"
 #: model_terms:ir.ui.view,arch_db:account_analytic_spread_by_tag.account_analytic_tag_spread_form_view
 msgid "Spreading Filters"
 msgstr "Фільтри розподілу"
+
+#. module: account_analytic_spread_by_tag
+#: model:ir.model.fields,help:account_analytic_spread_by_tag.field_account_analytic_tag__to_spread
+msgid ""
+"If enabled, the move line amounts using this tag will be spread across"
+"             all the analytic accounts that use this same tag."
+msgstr ""
+"Якщо увімкнено, суми рядка проводки з цим тегом будуть розподілені між усіма"
+" аналітичними рахунками, що використовують цей самий тег."

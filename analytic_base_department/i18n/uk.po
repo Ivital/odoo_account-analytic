@@ -43,3 +43,8 @@ msgstr "Аналітика"
 #: model_terms:ir.ui.view,arch_db:analytic_base_department.view_account_analytic_line_filter
 msgid "My Department"
 msgstr "Мій відділ"
+
+#. module: analytic_base_department
+#: model:ir.model.fields,help:analytic_base_department.field_account_analytic_line__account_department_id
+msgid "Account's related department"
+msgstr "Пов’язаний відділ рахунку"

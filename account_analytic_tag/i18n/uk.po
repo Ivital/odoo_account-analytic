@@ -99,3 +99,23 @@ msgstr "Фільтр аналітичного рахунка"
 #: model_terms:ir.ui.view,arch_db:account_analytic_tag.account_analytic_tag_view_search
 msgid "Search Analytic Tags"
 msgstr "Пошук аналітичних тегів"
+
+#. module: account_analytic_tag
+#: model:res.groups,name:account_analytic_tag.group_analytic_tags
+msgid "Analytic Accounting Tags"
+msgstr "Теги аналітичного обліку"
+
+#. module: account_analytic_tag
+#: model:ir.model.fields,help:account_analytic_tag.field_account_analytic_tag__active
+msgid "Set active to false to hide the Analytic Tag without removing it."
+msgstr ""
+"Встановіть active = false, щоб приховати аналітичний тег, не видаляючи його."
+
+#. module: account_analytic_tag
+#: model:ir.model.fields,help:account_analytic_tag.field_account_analytic_tag__account_analytic_id
+msgid ""
+"Without analytical account: This label will be set for all the analytical items generated.\n"
+" With analytical account: This label will be set only to the analytical items that have the same analytical account."
+msgstr ""
+"Без аналітичного рахунку: ця мітка буде встановлена для всіх створених аналітичних позицій.\n"
+" З аналітичним рахунком: ця мітка буде встановлена лише для аналітичних позицій із тим самим аналітичним рахунком."

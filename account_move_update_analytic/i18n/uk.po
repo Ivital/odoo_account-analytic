@@ -130,3 +130,8 @@ msgstr "Оновити аналітику для вибраних бухгалт
 #: model_terms:ir.ui.view,arch_db:account_move_update_analytic.view_account_move_update_analytic_account
 msgid "Update analytic lines"
 msgstr "Оновити аналітичні рядки"
+
+#. module: account_move_update_analytic
+#: model:ir.model,name:account_move_update_analytic.model_account_move_update_analytic_wizard
+msgid "Account Move Update Analytic Account Wizard"
+msgstr "Майстер оновлення аналітичного рахунку бухгалтерського запису"
