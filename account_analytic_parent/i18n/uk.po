@@ -43,3 +43,15 @@ msgstr "Повна назва"
 #: model_terms:ir.ui.view,arch_db:account_analytic_parent.view_account_analytic_account_form
 msgid "Parent Analytic Account"
 msgstr "Батьківський аналітичний рахунок"
+
+#. module: account_analytic_parent
+#. odoo-python
+#: code:addons/account_analytic_parent/models/account_analytic_account.py:0
+msgid "Please activate first parent account %s"
+msgstr "Спочатку активуйте батьківський рахунок %s"
+
+#. module: account_analytic_parent
+#. odoo-python
+#: code:addons/account_analytic_parent/models/account_analytic_account.py:0
+msgid "You can not create recursive analytic accounts."
+msgstr "Не можна створювати рекурсивні аналітичні рахунки."

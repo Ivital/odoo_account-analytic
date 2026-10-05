@@ -80,3 +80,23 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mrp_stock_analytic.res_config_settings_view_form
 msgid "MRP Analytic on Finished Products"
 msgstr "Аналітика MRP для готової продукції"
+
+#. module: mrp_stock_analytic
+#. odoo-python
+#: code:addons/mrp_stock_analytic/wizard/mrp_wip_accounting.py:0
+msgid ""
+"Please make sure the total credit amount equals the total debit amount."
+msgstr ""
+"Переконайтеся, що загальна сума кредиту дорівнює загальній сумі дебету."
+
+#. module: mrp_stock_analytic
+#. odoo-python
+#: code:addons/mrp_stock_analytic/wizard/mrp_wip_accounting.py:0
+msgid "Reversal date must be after the posting date."
+msgstr "Дата сторнування має бути після дати проведення."
+
+#. module: mrp_stock_analytic
+#. odoo-python
+#: code:addons/mrp_stock_analytic/wizard/mrp_wip_accounting.py:0
+msgid "Reversal of: %s"
+msgstr "Сторнування: %s"

@@ -164,3 +164,15 @@ msgstr "Завантаження..."
 #: model:ir.model.constraint,message:account_analytic_distribution_manual.constraint_account_analytic_distribution_manual_unique_name_by_company
 msgid "The name must be unique per Company!"
 msgstr "Назва має бути унікальною для кожної компанії!"
+
+#. module: account_analytic_distribution_manual
+#. odoo-javascript
+#: code:addons/account_analytic_distribution_manual/static/src/components/analytic_distribution/analytic_distribution.xml:0
+msgid "Manual distribution"
+msgstr "Ручний розподіл"
+
+#. module: account_analytic_distribution_manual
+#. odoo-javascript
+#: code:addons/account_analytic_distribution_manual/static/src/components/analytic_distribution/analytic_distribution.esm.js:0
+msgid "No Analytic Distribution Manual found"
+msgstr "Ручний аналітичний розподіл не знайдено"

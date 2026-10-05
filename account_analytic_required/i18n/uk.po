@@ -49,3 +49,37 @@ msgstr ""
 "- Завжди: бухгалтер отримає повідомлення про помилку, якщо аналітичний рахунок не вказано.\n"
 "- Проведені переміщення: бухгалтер отримає повідомлення про помилку, якщо під час проведення переміщення аналітичний рахунок не визначено.\n"
 "- Ніколи: бухгалтер отримає повідомлення про помилку, якщо аналітичний рахунок присутній."
+
+#. module: account_analytic_required
+#. odoo-python
+#: code:addons/account_analytic_required/models/account.py:0
+msgid ""
+"Analytic policy is set to 'Always' with account '%(account)s' but the "
+"analytic account is missing in the account move line with label '%(move)s'."
+msgstr ""
+"Аналітична політика встановлена на «Завжди» для рахунку «%(account)s», але в"
+" рядку бухгалтерського проведення з міткою «%(move)s» відсутній аналітичний "
+"рахунок."
+
+#. module: account_analytic_required
+#. odoo-python
+#: code:addons/account_analytic_required/models/account.py:0
+msgid ""
+"Analytic policy is set to 'Never' with account '%(account)s' but the account"
+" move line with label '%(move)s' has an analytic account "
+"'%(analytic_account)s'."
+msgstr ""
+"Аналітична політика встановлена на «Ніколи» для рахунку «%(account)s», але "
+"рядок бухгалтерського проведення «%(move)s» має аналітичний рахунок "
+"«%(analytic_account)s»."
+
+#. module: account_analytic_required
+#. odoo-python
+#: code:addons/account_analytic_required/models/account.py:0
+msgid ""
+"Analytic policy is set to 'Posted moves' with account '%(account)s' but the "
+"analytic account is missing in the account move line with label '%(move)s'."
+msgstr ""
+"Аналітична політика встановлена на «Проведені переміщення» для рахунку "
+"«%(account)s», але в рядку бухгалтерського проведення «%(move)s» відсутній "
+"аналітичний рахунок."
