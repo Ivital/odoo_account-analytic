@@ -9,6 +9,49 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #. module: account_analytic_distribution_manual
-#: model:ir.module.module,shortdesc:base.module_account_analytic_distribution_manual model:ir.module.module,summary:base.module_account_analytic_distribution_manual
+#: model:ir.module.module,shortdesc:base.module_account_analytic_distribution_manual
+#: model:ir.module.module,summary:base.module_account_analytic_distribution_manual
 msgid "Account analytic distribution manual"
 msgstr "Ручний аналітичний розподіл в обліку"
+
+#. module: account_analytic_distribution_manual
+#: model:ir.model.fields,field_description:account_analytic_distribution_manual.field_account_analytic_distribution_manual__active
+msgid "Active"
+msgstr "Активний"
+
+#. module: account_analytic_distribution_manual
+#: model_terms:ir.ui.view,arch_db:account_analytic_distribution_manual.view_account_analytic_distribution_manual_form
+#: model_terms:ir.ui.view,arch_db:account_analytic_distribution_manual.view_account_analytic_distribution_manual_search
+msgid "Archived"
+msgstr "Архівовано"
+
+#. module: account_analytic_distribution_manual
+#: model:ir.model.fields,field_description:account_analytic_distribution_manual.field_account_analytic_distribution_manual__company_id
+msgid "Company"
+msgstr "Компанія"
+
+#. module: account_analytic_distribution_manual
+#: model:ir.model.fields,field_description:account_analytic_distribution_manual.field_account_analytic_distribution_manual__create_uid
+msgid "Created by"
+msgstr "Створив"
+
+#. module: account_analytic_distribution_manual
+#: model:ir.model.fields,field_description:account_analytic_distribution_manual.field_account_analytic_distribution_manual__create_date
+msgid "Created on"
+msgstr "Створено"
+
+#. module: account_analytic_distribution_manual
+#: model:ir.model.fields,field_description:account_analytic_distribution_manual.field_account_analytic_distribution_manual__display_name
+msgid "Display Name"
+msgstr "Відображувана назва"
+
+#. module: account_analytic_distribution_manual
+#: model:ir.actions.act_window,name:account_analytic_distribution_manual.action_account_analytic_distribution_manual
+#: model:ir.ui.menu,name:account_analytic_distribution_manual.account_analytic_distribution_manual_menu
+msgid "Manual Analytic Distributions"
+msgstr "Ручні аналітичні розподіли"
+
+#. module: account_analytic_distribution_manual
+#: model:ir.model.fields,field_description:account_analytic_distribution_manual.field_account_analytic_distribution_manual__name
+msgid "Name"
+msgstr "Назва"
