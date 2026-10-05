@@ -99,3 +99,34 @@ msgstr "Оновити аналітику"
 #: model_terms:ir.ui.view,arch_db:account_move_update_analytic.account_move_line_tree_view
 msgid "Update analytic distribution"
 msgstr "Оновити аналітичний розподіл"
+
+#. module: account_move_update_analytic
+#: model:ir.model.fields,field_description:account_move_update_analytic.field_account_move_update_analytic_wizard__current_analytic_distribution
+msgid "Current Analytic Distribution"
+msgstr "Поточний аналітичний розподіл"
+
+#. module: account_move_update_analytic
+#: model:ir.model.fields,help:account_move_update_analytic.field_account_move_update_analytic_wizard__analytic_distribution_import
+msgid ""
+"Defining this field, it will set the analytical distribution in JSON format,"
+" but using the analytic accounts names as keys of the dictionary, so it "
+"eases the human input."
+msgstr ""
+"Якщо визначити це поле, аналітичний розподіл буде задано у форматі JSON, але"
+" ключами словника будуть назви аналітичних рахунків, що спрощує введення "
+"людиною."
+
+#. module: account_move_update_analytic
+#: model_terms:ir.ui.view,arch_db:account_move_update_analytic.view_account_move_update_analytic_account
+msgid "Update Analytic Distribution"
+msgstr "Оновити аналітичний розподіл"
+
+#. module: account_move_update_analytic
+#: model:ir.actions.act_window,name:account_move_update_analytic.action_view_account_move_update_analytic
+msgid "Update Analytic for selected Account Moves"
+msgstr "Оновити аналітику для вибраних бухгалтерських записів"
+
+#. module: account_move_update_analytic
+#: model_terms:ir.ui.view,arch_db:account_move_update_analytic.view_account_move_update_analytic_account
+msgid "Update analytic lines"
+msgstr "Оновити аналітичні рядки"

@@ -47,3 +47,15 @@ msgstr "Аналітичний рахунок розподілу"
 #: model:ir.model.fields,field_description:stock_landed_costs_analytic.field_stock_valuation_adjustment_lines__manual_distribution_id
 msgid "Manual Distribution"
 msgstr "Ручний розподіл"
+
+#. module: stock_landed_costs_analytic
+#: model:ir.model.fields,help:stock_landed_costs_analytic.field_stock_landed_cost_lines__analytic_distribution_import
+#: model:ir.model.fields,help:stock_landed_costs_analytic.field_stock_valuation_adjustment_lines__analytic_distribution_import
+msgid ""
+"Defining this field, it will set the analytical distribution in JSON format,"
+" but using the analytic accounts names as keys of the dictionary, so it "
+"eases the human input."
+msgstr ""
+"Якщо визначити це поле, аналітичний розподіл буде задано у форматі JSON, але"
+" ключами словника будуть назви аналітичних рахунків, що спрощує введення "
+"людиною."

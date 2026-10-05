@@ -47,3 +47,23 @@ msgstr "Зіставлення тегів"
 #: model_terms:ir.ui.view,arch_db:account_analytic_spread_by_tag.account_analytic_tag_spread_search_view
 msgid "To Spread"
 msgstr "До розподілу"
+
+#. module: account_analytic_spread_by_tag
+#: model:ir.model.fields,field_description:account_analytic_spread_by_tag.field_account_analytic_account__mapped_analytic_tag_ids
+msgid "Mapped Analytic Tag"
+msgstr "Зіставлений аналітичний тег"
+
+#. module: account_analytic_spread_by_tag
+#: model:ir.model.fields,field_description:account_analytic_spread_by_tag.field_account_analytic_tag__to_spread
+msgid "Spread analytic amounts"
+msgstr "Розподіляти аналітичні суми"
+
+#. module: account_analytic_spread_by_tag
+#: model_terms:ir.ui.view,arch_db:account_analytic_spread_by_tag.account_analytic_tag_spread_form_view
+msgid "Spreading Configuration"
+msgstr "Конфігурація розподілу"
+
+#. module: account_analytic_spread_by_tag
+#: model_terms:ir.ui.view,arch_db:account_analytic_spread_by_tag.account_analytic_tag_spread_form_view
+msgid "Spreading Filters"
+msgstr "Фільтри розподілу"

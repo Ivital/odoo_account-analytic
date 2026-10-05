@@ -83,3 +83,19 @@ msgstr "Останнє оновлення ким"
 #: model:ir.model.fields,field_description:account_analytic_tag.field_account_analytic_tag__write_date
 msgid "Last Updated on"
 msgstr "Останнє оновлення"
+
+#. module: account_analytic_tag
+#: model_terms:ir.ui.view,arch_db:account_analytic_tag.res_config_settings_view_form
+msgid "Allows to tag analytic entries and to manage analytic distributions"
+msgstr ""
+"Дозволяє тегувати аналітичні записи та керувати аналітичними розподілами"
+
+#. module: account_analytic_tag
+#: model:ir.model.fields,field_description:account_analytic_tag.field_account_analytic_tag__account_analytic_id
+msgid "Analytic Account filter"
+msgstr "Фільтр аналітичного рахунка"
+
+#. module: account_analytic_tag
+#: model_terms:ir.ui.view,arch_db:account_analytic_tag.account_analytic_tag_view_search
+msgid "Search Analytic Tags"
+msgstr "Пошук аналітичних тегів"

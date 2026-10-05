@@ -27,3 +27,8 @@ msgstr "Ніколи"
 #: model:ir.model.fields.selection,name:account_analytic_required.selection__account_account__analytic_policy__posted
 msgid "Posted moves"
 msgstr "Проведені переміщення"
+
+#. module: account_analytic_required
+#: model:ir.model.fields,field_description:account_analytic_required.field_account_account__analytic_policy
+msgid "Policy for analytic account"
+msgstr "Політика для аналітичного рахунка"

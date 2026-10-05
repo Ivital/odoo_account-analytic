@@ -53,3 +53,30 @@ msgstr "Ручний розподіл"
 #: model:ir.model.fields,field_description:mrp_stock_analytic.field_res_config_settings__mrp_analytic_on_finished
 msgid "Mrp Analytic On Finished"
 msgstr "MRP-аналітика завершеного виробництва"
+
+#. module: mrp_stock_analytic
+#: model_terms:ir.ui.view,arch_db:mrp_stock_analytic.res_config_settings_view_form
+msgid "Assign analytic distribution to finished product moves."
+msgstr "Призначити аналітичний розподіл переміщенням готової продукції."
+
+#. module: mrp_stock_analytic
+#: model:ir.model.fields,help:mrp_stock_analytic.field_mrp_account_wip_accounting_line__company_id
+msgid "Company related to this journal"
+msgstr "Компанія, пов'язана з цим журналом"
+
+#. module: mrp_stock_analytic
+#: model:ir.model.fields,help:mrp_stock_analytic.field_mrp_account_wip_accounting_line__analytic_distribution_import
+#: model:ir.model.fields,help:mrp_stock_analytic.field_mrp_production__analytic_distribution_import
+msgid ""
+"Defining this field, it will set the analytical distribution in JSON format,"
+" but using the analytic accounts names as keys of the dictionary, so it "
+"eases the human input."
+msgstr ""
+"Якщо визначити це поле, аналітичний розподіл буде задано у форматі JSON, але"
+" ключами словника будуть назви аналітичних рахунків, що спрощує введення "
+"людиною."
+
+#. module: mrp_stock_analytic
+#: model_terms:ir.ui.view,arch_db:mrp_stock_analytic.res_config_settings_view_form
+msgid "MRP Analytic on Finished Products"
+msgstr "Аналітика MRP для готової продукції"

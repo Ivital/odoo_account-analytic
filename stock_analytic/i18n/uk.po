@@ -60,3 +60,16 @@ msgstr "Ручний розподіл"
 #: model:ir.model.fields,field_description:stock_analytic.field_account_analytic_applicability__stock_picking_type_id
 msgid "Operation Type"
 msgstr "Тип операції"
+
+#. module: stock_analytic
+#: model:ir.model.fields,help:stock_analytic.field_stock_move__analytic_distribution_import
+#: model:ir.model.fields,help:stock_analytic.field_stock_move_line__analytic_distribution_import
+#: model:ir.model.fields,help:stock_analytic.field_stock_scrap__analytic_distribution_import
+msgid ""
+"Defining this field, it will set the analytical distribution in JSON format,"
+" but using the analytic accounts names as keys of the dictionary, so it "
+"eases the human input."
+msgstr ""
+"Якщо визначити це поле, аналітичний розподіл буде задано у форматі JSON, але"
+" ключами словника будуть назви аналітичних рахунків, що спрощує введення "
+"людиною."
