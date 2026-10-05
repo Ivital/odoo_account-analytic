@@ -48,3 +48,19 @@ msgstr "Відображувана назва"
 #: model:ir.model.fields,field_description:account_analytic_organization.field_account_analytic_organization__name
 msgid "Name"
 msgstr "Назва"
+
+#. module: account_analytic_organization
+#: model:ir.actions.act_window,name:account_analytic_organization.account_analytic_organization_action
+#: model:ir.model,name:account_analytic_organization.model_account_analytic_organization
+msgid "Account Analytic Organization"
+msgstr "Аналітична організація рахунку"
+
+#. module: account_analytic_organization
+#: model:ir.model.fields,field_description:account_analytic_organization.field_account_analytic_organization__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: account_analytic_organization
+#: model:ir.model.fields,field_description:account_analytic_organization.field_account_analytic_organization__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"

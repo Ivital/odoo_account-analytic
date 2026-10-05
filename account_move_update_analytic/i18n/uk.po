@@ -47,3 +47,55 @@ msgstr "Рядок рахунка-фактури"
 #: model:ir.model.fields,field_description:account_move_update_analytic.field_account_move_update_analytic_wizard__move_type
 msgid "Move Type"
 msgstr "Тип переміщення"
+
+#. module: account_move_update_analytic
+#: model:ir.model.fields,field_description:account_move_update_analytic.field_account_move_update_analytic_wizard__analytic_distribution
+msgid "Analytic Distribution"
+msgstr "Аналітичний розподіл"
+
+#. module: account_move_update_analytic
+#: model:ir.model.fields,field_description:account_move_update_analytic.field_account_move_update_analytic_wizard__analytic_precision
+msgid "Analytic Precision"
+msgstr "Точність аналітики"
+
+#. module: account_move_update_analytic
+#: model:ir.model.fields,field_description:account_move_update_analytic.field_account_move_update_analytic_wizard__analytic_distribution_import
+msgid "Analytic distribution (importable)"
+msgstr "Аналітичний розподіл (імпортований)"
+
+#. module: account_move_update_analytic
+#: model_terms:ir.ui.view,arch_db:account_move_update_analytic.view_account_move_update_analytic_account
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: account_move_update_analytic
+#: model:ir.model.fields,field_description:account_move_update_analytic.field_account_move_update_analytic_wizard__distribution_analytic_account_ids
+msgid "Distribution Analytic Account"
+msgstr "Аналітичний рахунок розподілу"
+
+#. module: account_move_update_analytic
+#: model:ir.model.fields,field_description:account_move_update_analytic.field_account_move_update_analytic_wizard__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: account_move_update_analytic
+#: model:ir.model.fields,field_description:account_move_update_analytic.field_account_move_update_analytic_wizard__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: account_move_update_analytic
+#: model:ir.model.fields,field_description:account_move_update_analytic.field_account_move_update_analytic_wizard__manual_distribution_id
+msgid "Manual Distribution"
+msgstr "Ручний розподіл"
+
+#. module: account_move_update_analytic
+#: model:ir.actions.act_window,name:account_move_update_analytic.action_view_full_account_move_update_analytic
+#: model:ir.actions.server,name:account_move_update_analytic.action_view_account_move_update_analytic_full
+msgid "Update Analytic"
+msgstr "Оновити аналітику"
+
+#. module: account_move_update_analytic
+#: model_terms:ir.ui.view,arch_db:account_move_update_analytic.account_move_form_view
+#: model_terms:ir.ui.view,arch_db:account_move_update_analytic.account_move_line_tree_view
+msgid "Update analytic distribution"
+msgstr "Оновити аналітичний розподіл"

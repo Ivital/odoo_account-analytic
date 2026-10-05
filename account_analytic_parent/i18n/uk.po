@@ -27,3 +27,19 @@ msgstr "Назва"
 #: model:ir.model.fields,field_description:account_analytic_parent.field_account_analytic_account__parent_path
 msgid "Parent Path"
 msgstr "Батьківський шлях"
+
+#. module: account_analytic_parent
+#: model:ir.model.fields,field_description:account_analytic_parent.field_account_analytic_account__child_ids
+msgid "Child Accounts"
+msgstr "Дочірні рахунки"
+
+#. module: account_analytic_parent
+#: model:ir.model.fields,field_description:account_analytic_parent.field_account_analytic_account__complete_name
+msgid "Complete Name"
+msgstr "Повна назва"
+
+#. module: account_analytic_parent
+#: model:ir.model.fields,field_description:account_analytic_parent.field_account_analytic_account__parent_id
+#: model_terms:ir.ui.view,arch_db:account_analytic_parent.view_account_analytic_account_form
+msgid "Parent Analytic Account"
+msgstr "Батьківський аналітичний рахунок"

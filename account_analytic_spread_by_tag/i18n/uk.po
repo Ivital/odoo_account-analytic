@@ -17,3 +17,33 @@ msgstr ""
 #: model:ir.model.fields,field_description:account_analytic_spread_by_tag.field_account_analytic_tag__spread_filter_operation
 msgid "Operation"
 msgstr "Операція"
+
+#. module: account_analytic_spread_by_tag
+#: model:ir.model.fields,field_description:account_analytic_spread_by_tag.field_account_analytic_tag__spread_filter_analytic_account_ids
+msgid "Analytic Accounts"
+msgstr "Аналітичні рахунки"
+
+#. module: account_analytic_spread_by_tag
+#: model:ir.model.fields.selection,name:account_analytic_spread_by_tag.selection__account_analytic_tag__spread_filter_operation__exclude
+msgid "Exclude"
+msgstr "Виключити"
+
+#. module: account_analytic_spread_by_tag
+#: model:ir.model.fields.selection,name:account_analytic_spread_by_tag.selection__account_analytic_tag__spread_filter_operation__include
+msgid "Include"
+msgstr "Включити"
+
+#. module: account_analytic_spread_by_tag
+#: model_terms:ir.ui.view,arch_db:account_analytic_spread_by_tag.account_analytic_acount_spread_form_view
+msgid "Spreading"
+msgstr "Розподіл"
+
+#. module: account_analytic_spread_by_tag
+#: model_terms:ir.ui.view,arch_db:account_analytic_spread_by_tag.account_analytic_acount_spread_form_view
+msgid "Tags Mapping"
+msgstr "Зіставлення тегів"
+
+#. module: account_analytic_spread_by_tag
+#: model_terms:ir.ui.view,arch_db:account_analytic_spread_by_tag.account_analytic_tag_spread_search_view
+msgid "To Spread"
+msgstr "До розподілу"

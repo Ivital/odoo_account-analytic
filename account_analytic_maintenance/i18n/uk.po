@@ -17,3 +17,18 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:account_analytic_maintenance.maintenance_equipment_view_form_analytic
 msgid "Accounting"
 msgstr "Бухгалтерський облік"
+
+#. module: account_analytic_maintenance
+#: model:ir.model.fields,field_description:account_analytic_maintenance.field_maintenance_equipment__analytic_distribution
+msgid "Analytic Distribution"
+msgstr "Аналітичний розподіл"
+
+#. module: account_analytic_maintenance
+#: model:ir.model.fields,field_description:account_analytic_maintenance.field_maintenance_equipment__analytic_precision
+msgid "Analytic Precision"
+msgstr "Точність аналітики"
+
+#. module: account_analytic_maintenance
+#: model:ir.model.fields,field_description:account_analytic_maintenance.field_maintenance_equipment__distribution_analytic_account_ids
+msgid "Distribution Analytic Account"
+msgstr "Аналітичний рахунок розподілу"
